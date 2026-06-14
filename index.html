@@ -14,11 +14,12 @@
 
     <style>
         .card img {
-            max-height: 400px;
+            height: 400px;
+            object-fit: cover;
         }
 
         .card {
-            height: 515px;
+            height: 570px;
             border: 2px solid black;
             border-radius: 10px;
         }
@@ -69,16 +70,17 @@
                 <p class="lead">Hola, soy un programador junior que está aprendiendo sobre HTML, CSS, JS y Python.
                     Últimamente estoy aprendiendo con Bootstrap y con IA para ser más eficaz en mi trabajo.
                 </p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start col-4"> <button type="button"
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start col-12"> <button type="button"
                         class="btn btn-primary btn-lg p-3 me-md-2">Descargar CV</button> </div>
             </div>
         </div>
     </div>
 
 
-    <!-- Cartas -->
-    <div class="container text-center">
-        <div class="row gx-4 gy-3">
+    <!-- Hanilidades (Cartas) --> 
+    <div class="container-fluid text-center">
+        <div class="row gx-4 gy-3 mt-5">
+            <h1>MIS HABILIDADES</h1>
             <div class="col-6 col-lg-3">
                 <div class="card">
                     <img src="./html.png" class="card-img-top" alt="...">
@@ -116,6 +118,41 @@
                         <h5 class="card-title">Flutter</h5>
                         <p class="card-text">Desarrollo de aplicaciones multiplataforma</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Poryectos (Cartas) -->
+    <div class="container-fluid text-center">
+        <div class="row gx-4 gy-3 mt-5">
+            <h1>MIS PROYECTOS</h1>
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="card">
+                    <img src="./tienda-online.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mi tienda</h5>
+                        <p class="card-text">Cursos para programar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="card">
+                    <img src="./apps.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">APP's</h5>
+                        <p class="card-text">Aplicaciones para iPhones</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="card">
+                    <img src="./blog.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog</h5>
+                        <p class="card-text">Blog donde subo cosas personales</p>
                     </div>
                 </div>
             </div>
