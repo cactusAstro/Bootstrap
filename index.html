@@ -4,49 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola</title>
+    <title>Ivan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
-    <style>
-        .card img {
-            height: 400px;
-            object-fit: cover;
-        }
-
-        .card {
-            height: 550px;
-            border: 2px solid black;
-            border-radius: 20px;
-        }
-
-        .card:hover {
-            color: red;
-            background-color: black;
-            border: 2px solid red;
-            transition: 3s;
-        }
-    </style>
-
 </head>
 
 <body>
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark sticky-top p-3" data-bs-theme="dark">
-        <div class="container-fluid">
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/070/730/255/small/computer-logo-white-phone-icon-in-transparent-background-free-png.png" style="height: 40px; width: 40px; margin: 4px; " alt="">
-            <a class="navbar-brand" href="#" style="font-weight: bolder;">Mi_web</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid px-3">
+            <a class="navbar-brand" href="#">Web</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav px-3">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
@@ -58,184 +37,26 @@
                     </li>
                 </ul>
             </div>
+        </div>
     </nav>
 
-    <!-- Sobre mi-->
-    <div class="container-fluid m-4">
-        <div class="row flex-lg-row-reverse align-items-center me-3 py-5">
-            <div class="col-12 col-sm-12 col-lg-6"> <img src="./developer.png" class="d-block mx-lg-auto img-fluid"
-                    alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
-            <div class="col-12 col-sm-12 col-lg-6">
+    <!-- Hero -->
+    <div class="container-fluid col-xxl-12 m-4">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./developer.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                    height="500" loading="lazy">
+            </div>
+            <div class="col-12 col-lg-6 px-3">
                 <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Sobre mi</h1>
-                <p class="lead">Hola, soy un programador junior que está aprendiendo sobre HTML, CSS, JS y Python.
-                    Últimamente estoy aprendiendo con Bootstrap y con IA para ser más eficaz en mi trabajo.
-                </p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start col-12"> <button type="button"
-                        class="btn btn-primary btn-lg p-3 me-md-2">Descargar CV</button> </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Hanilidades (Cartas) --> 
-    <div class="container-fluid text-center">
-        <div class="row gx-4 gy-3">
-            <h1>MIS HABILIDADES</h1>
-            <div class="col-6 col-lg-3">
-                <div class="card">
-                    <img src="./html.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">HTML</h5>
-                        <p class="card-text">Programador experto en html 5. con ganas de aprender</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-lg-3">
-                <div class="card">
-                    <img src="./js.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">JavaScript</h5>
-                        <p class="card-text">Lenguaje de programación combinable con HTML. Muy eficaz para crear webs completas</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-lg-3">
-                <div class="card">
-                    <img src="./bootstrap.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Bootstrap</h5>
-                        <p class="card-text">Me gusta porque asi soy más eficaz</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-lg-3">
-                <div class="card">
-                    <img src="./flutter.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Flutter</h5>
-                        <p class="card-text">Desarrollo de aplicaciones multiplataforma</p>
-                    </div>
+                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
+                    most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
+                    system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <!-- Poryectos (Cartas) -->
-    <div class="container-fluid text-center">
-        <div class="row gx-4 gy-3 mt-5">
-            <h1>MIS PROYECTOS</h1>
-            <div class="col-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <img src="./tienda-online.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Mi tienda</h5>
-                        <p class="card-text">Cursos para programar</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <img src="./apps.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">APP's</h5>
-                        <p class="card-text">Aplicaciones para iPhones</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <div class="card">
-                    <img src="./blog.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Blog</h5>
-                        <p class="card-text">Blog donde subo cosas personales</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Formulario -->
-    <div class="container text-start">
-        <div class="row gy-3 gx-4 mt-3">
-            <div class="col-6 col-lg-6">
-                <h3 style="display: flex; justify-content: center;">CONTÁCTANOS</h3>
-                <div class="mb-3">
-                    <label for="Mail" class="form-label" style="font-weight: bolder;">E-mail</label>
-                    <input type="text" class="form-control" id="Mail" placeholder="tucorreo@compañia.com">
-                </div>
-
-                <div class="mb-3">
-                    <label for="Asuntodelmensaje" class="form-label" style="font-weight: bolder;">Asunto</label>
-                    <input type="text" class="form-control" placeholder="First name" aria-label="Asunto"
-                        id="Asuntodelmensaje">
-                </div>
-
-                <div class="mb-3">
-                    <label for="Mensaje" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="Mensaje" rows="3"></textarea>
-                </div>
-
-                <hr>
-
-                <div class="mb-3">
-                    <label for="Nombre" class="form-label" style="font-weight: bolder;">Nombre</label>
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name"
-                        id="Nombre">
-                </div>
-                <div class="mb-3">
-                    <label for="Apellidos" class="form-label" style="font-weight: bolder;">Nombre</label>
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"
-                        id="Apellidos">
-                </div>
-
-                <hr>
-
-                <div class="mb-3">
-                    <label for="Apellidos" class="form-label" style="font-weight: bolder;">Eres mayor de edad??</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1" checked>
-                        <label class="form-check-label" for="radioDefault1">
-                            SÍ
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2">
-                        <label class="form-check-label" for="radioDefault2">
-                            NO
-                        </label>
-                    </div>
-                </div>
-
-                <hr>
-
-                <div class="mb-3">
-                    <label for="range1" class="form-label" style="font-weight: bolder;">Que tan satisfecho
-                        estás??</label>
-                    <input type="range" class="form-range" id="range1">
-                    <p>recuerda que cuanto más a la derecha este el marcador la puntuación será mas alta</p>
-                </div>
-            </div>
-
-            <div class="col-6 col-lg-6">
-                <h3 style="display: flex; justify-content: center;">NUESTROS DATOS</h3>
-                <p>Teléfono</p>
-                <i class="bi bi-telephone">+34 612 234 567</i>
-                <hr>
-                <p>Correo</p>
-                <i class="bi bi-envelope">xxxxxxxxxxx@gmail.com</i>
-                <hr>
-                <p>Paypal</p>
-                <i class="bi bi-paypal">xxxxxxxx</i>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container-fluid">
-        <footer class="py-3 my-4" style="background-color: grey;">
-            <p class="text-center text-body-secondary">© 2026 Compañía de desarrollo web </p>
-        </footer>
     </div>
 
 </body>
